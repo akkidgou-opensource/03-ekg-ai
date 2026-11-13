@@ -1,1 +1,0 @@
-Hier kommen die Test-EKGs hinein (Fall01-Fall08, Kontrolle01-02, referenz.csv).

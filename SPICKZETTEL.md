@@ -50,7 +50,7 @@ Stelle die Ausgabe auf JSON um mit den Feldern: beurteilbar, ampel, hauptbefund,
 **Fertig, wenn:** die Ampel ohne Scrollen sichtbar ist und der Demo-Modus läuft.
 
 ## Block 6 · Prompt mit Testfällen verbessern
-Testfälle aus `daten/testfaelle/` in den Ordner `testfaelle` kopieren. Fünf Fälle zum Verbessern, drei Blind-Fälle bleiben bis Block 8 ungesehen.
+Testfälle aus `daten/testfaelle/` in den Ordner `testfaelle` kopieren. Fall 1 bis 5 sind zum Verbessern da, Fall 6 bis 8 bleiben als Blind-Fälle bis Block 8 ungesehen. Zwei Kontrollbilder macht ihr selbst (Foto ohne EKG, unscharfes EKG). Die erwartete Klasse je Fall steht in `referenz.csv`, die Grenzen des Datensatzes in `daten/QUELLEN.md`.
 ```
 Baue testlauf.js: schickt alle Bilder aus testfaelle durch dieselbe Auswertung wie die App und schreibt eine CSV nach ergebnisse/ mit Datei, KI-Hauptbefund, Ampel, Konfidenz und leeren Spalten Bewertung_Medizin und Kritischer_Fehler. Die Dateien Fall06 bis Fall08 laufen nur mit dem Zusatz --blind mit. Bewerte nichts selbst.
 ```

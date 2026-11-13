@@ -28,8 +28,9 @@ Kardiologische Expertise ist im Rettungsdienst selten sofort verfügbar, die EKG
 | `SPICKZETTEL.md` | Umsetzungsplan für 8 Stunden, Block für Block |
 | `CLAUDE.md`, `AGENTS.md` | Dieselben Regeln für den Coding-Agenten (Claude Code liest die erste, Codex die zweite Datei) |
 | `GITHUB_ANLEITUNG.md` | Eure Arbeit auf GitHub bringen, ohne Git-Kenntnisse |
-| `daten/QUELLEN.md` | Offene EKG-Datensätze mit Lizenz |
-| `daten/testfaelle/` | Fertige Test-EKGs (werden vor dem Hackathon ergänzt) |
+| `daten/QUELLEN.md` | Herkunft, Lizenz und Grenzen der EKG-Daten. Bitte vor dem Testen lesen. |
+| `daten/testfaelle/` | 8 fertige Testfälle (5 zum Verbessern, 3 Blind-Fälle) mit `referenz.csv` |
+| `daten/mendeley_ekg_bilder/` | 928 EKG-Bilder in vier Klassen: normal, Myokardinfarkt, Zustand nach Myokardinfarkt, abnormaler Herzschlag |
 | `daten/beispielbilder/` | 4 EKG-Bilder (Normalbefunde) zum sofortigen Ausprobieren, mit `referenz.csv` |
 
 ## Stolpersteine
