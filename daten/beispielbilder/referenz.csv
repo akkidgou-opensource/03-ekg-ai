@@ -1,0 +1,5 @@
+datei;ecg_id;art;scp_codes;befundtext_datensatz;validated_by_human
+beispiel_01.png;2;sauber gerendert;{'NORM': 80.0, 'SBRAD': 0.0};sinusbradykardie sonst normales ekg;True
+beispiel_02.png;3;sauber gerendert;{'NORM': 100.0, 'SR': 0.0};sinusrhythmus normales ekg;True
+beispiel_03_handschrift.png;2;mit handschriftlichen Notizen;{'NORM': 80.0, 'SBRAD': 0.0};sinusbradykardie sonst normales ekg;True
+beispiel_04_handschrift.png;4;mit handschriftlichen Notizen;{'NORM': 100.0, 'SR': 0.0};sinusrhythmus normales ekg;True
